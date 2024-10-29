@@ -41,6 +41,12 @@ Open a terminal and `cd` to the folder in which `docker-compose.yml` is saved an
 docker-compose up
 ```
 
+If above command does not work try to build it.
+
+```
+docker-compose up --build
+```
+
 This creates two new folders next to your `docker-compose.yml` file.
 
 * `wp-data` – used to store and restore database dumps
